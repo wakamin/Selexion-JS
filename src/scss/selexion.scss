@@ -54,7 +54,7 @@ select.selexion-select {
         border-radius: 0 0 3px 3px;
         box-sizing: border-box;
         max-height: 180px;
-        overflow-y: scroll;
+        overflow-y: auto;
         box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.1);
 
         &::-webkit-scrollbar {
