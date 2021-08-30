@@ -71,7 +71,7 @@
         option_els.forEach((option_el) => {
             option_el.addEventListener("click", function () {
                 selected_text_el.textContent = this.textContent;
-                select.value = this.getAttribute("value");
+                select.value = this.getAttribute("data-value");
                 select.dispatchEvent(new Event("change"));
                 options_el.classList.remove("dropdown-active");
                 selected_text_el.classList.remove("dropdown-active");
